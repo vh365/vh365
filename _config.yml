@@ -1,0 +1,34 @@
+encoding: UTF-8
+lang: vi
+timezone: Asia/Ho_Chi_Minh
+title: NetTV
+email: lactran.vh@gmail.com
+description: NetTV Blog
+author: Lạc Trần
+baseurl: ''
+url: vh365.github.io
+twitter_username: null
+github_username: vh365
+facebook_username: null
+instagram_username: null
+linkedin_username: null
+google_analytics: UA-XXXXXXXXX-X
+plugins:
+  - jekyll-feed
+compress_html:
+  comments:
+    - <!--
+    - '-->'
+  blanklines: true #false
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - cmd.exe
